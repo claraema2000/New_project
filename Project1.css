@@ -8,3 +8,25 @@
 .bore{
     cursor:url("https://www.i2symbol.com/pictures/emojis/e/7/6/c/e76cbbc39173905cd81161b9719de0dd.png"),auto;
 }
+.box{
+    padding: 10px;
+    background-color: steelblue;
+    width: 60px;
+}
+.b2{
+    background-color:slategray;
+    width: 100px;
+}
+.b3{
+    background-color: springgreen;
+    width: 100px;
+}
+.b4{
+    background-color: aqua;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row-reverse;
+}
