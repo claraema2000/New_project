@@ -6,7 +6,7 @@
     cursor:grab;
 }
 .bore{
-    cursor:url("https://www.i2symbol.com/pictures/emojis/e/7/6/c/e76cbbc39173905cd81161b9719de0dd.png"),auto;
+    cursor: url("https://www.i2symbol.com/pictures/emojis/e/7/6/c/e76cbbc39173905cd81161b9719de0dd.png"), auto;
 }
 .box{
     padding: 10px;
@@ -26,7 +26,9 @@
 }
 .container{
     display:flex;
-    justify-content:center;
+    height: 100px;
+    border: 2px solid slateblue;
+    justify-content:space-around;
     align-items:center;
     flex-direction: row-reverse;
 }
